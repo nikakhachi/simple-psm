@@ -9,6 +9,7 @@ import {IReceiptToken} from "./interfaces/IReceiptToken.sol";
 
 import {EventsLib} from "./libraries/EventsLib.sol";
 
+// TODO add supply cap and pause functionality
 contract PSM is AccessControl {
   bytes32 public constant MANAGER = keccak256(abi.encode("manager"));
 
